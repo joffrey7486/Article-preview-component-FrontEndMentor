@@ -24,7 +24,7 @@
 .img{
     height: 18rem;
     width: 18.5rem;
-    background-image: url(/images/drawers.jpg);
+    background-image: url(https://github.com/joffrey7486/Article-preview-component-FrontEndMentor/blob/main/images/drawers.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px 0 0 15px;
@@ -57,7 +57,7 @@
     flex-direction: row;
 }
 .photo{
-    background-image: url(/images/avatar-michelle.jpg);
+    background-image: url(https://github.com/joffrey7486/Article-preview-component-FrontEndMentor/blob/main/images/avatar-michelle.jpg?raw=true);
     background-size: cover;
     height: 3rem;
     width: 3rem;
@@ -76,7 +76,7 @@
     font-weight: 500;
 }
 .btn_share{
-   background-image: url(/images/icon-share-inactive.svg);
+   background-image: url(https://raw.githubusercontent.com/joffrey7486/Article-preview-component-FrontEndMentor/b52464c7596a96959318d0b6d0baa086ceaf7a2e/images/icon-share-inactive.svg);
     background-repeat: no-repeat;
    background-color: #edf1fa;
     background-size: 1rem;
@@ -123,7 +123,7 @@
   .social{
     height: 5rem;
     width: 9rem;
-    background-image: url(/images/icon-facebook.svg), url(/images/icon-twitter.svg), url(/images/icon-pinterest.svg);
+    background-image: url(https://raw.githubusercontent.com/joffrey7486/Article-preview-component-FrontEndMentor/b52464c7596a96959318d0b6d0baa086ceaf7a2e/images/icon-facebook.svg), url(https://raw.githubusercontent.com/joffrey7486/Article-preview-component-FrontEndMentor/b52464c7596a96959318d0b6d0baa086ceaf7a2e/images/icon-twitter.svg), url(https://raw.githubusercontent.com/joffrey7486/Article-preview-component-FrontEndMentor/b52464c7596a96959318d0b6d0baa086ceaf7a2e/images/icon-pinterest.svg);
     background-repeat: no-repeat;
     background-size: 1.3rem;
     background-position: 1rem, 4rem, 7rem;
@@ -179,7 +179,7 @@
     .btn_share_res{
         overflow: hidden;
         background-color: #6e829b;
-        background-image: url(/images/icon-share-active.svg);
+        background-image: url(https://raw.githubusercontent.com/joffrey7486/Article-preview-component-FrontEndMentor/b52464c7596a96959318d0b6d0baa086ceaf7a2e/images/icon-share-active.svg);
         background-size: 1rem;
         background-repeat: no-repeat;
         height: 3rem;
