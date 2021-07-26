@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edf2f8;
+}
+.card{
+    height: 18rem;
+    width: 46rem;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+.img{
+    height: 18rem;
+    width: 18.5rem;
+    background-image: url(/images/drawers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 0 0 15px;
+}
+.info{
+    height: 18rem;
+    width: 27.5rem;
+    background: #fff;
+    padding: 2rem 2rem 0rem 2rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 15px 15px 0;
+}
+.info h1{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.info p{
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    padding-right: 3rem;
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+}
+.profil{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.photo{
+    background-image: url(/images/avatar-michelle.jpg);
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50px;
+    margin: 1rem 1rem 1rem 0;
+}
+.name_date{
+    width: 14rem;
+    height: 3rem;
+}
+.name{
+    font-weight: 700;
+}
+.date{
+    color: hsl(212, 23%, 69%);
+    font-weight: 500;
+}
+.btn_share{
+   background-image: url(/images/icon-share-inactive.svg);
+    background-repeat: no-repeat;
+   background-color: #edf1fa;
+    background-size: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50px;
+    background-position: center;
+    overflow: hidden;
+}
+.share {
+    width: 16rem;
+    height: 4.5rem;
+    background: hsl(217, 19%, 35%);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    bottom: 5.5rem;
+    right: 6rem;
+    display: flex;
+    align-items: center;
+  }
+  .share::after{
+    content: "";
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-top: 1rem solid hsl(217, 19%, 35%);
+    position: absolute;
+    top: 4.5rem;
+    right: 7.5rem;
+    }
+    .inactive.share{}
+    .active.share{}
+
+  .share h2{
+    text-transform: uppercase;
+    color: hsl(212, 23%, 69%);
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    font-family: monospace;
+    font-weight: 100;
+    margin-left: 2rem;
+  }
+  .social{
+    height: 5rem;
+    width: 9rem;
+    background-image: url(/images/icon-facebook.svg), url(/images/icon-twitter.svg), url(/images/icon-pinterest.svg);
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    background-position: 1rem, 4rem, 7rem;
+    display: flex;
+  }
+.attribution {font-size: 20px;text-align: center;position: relative;bottom: 4rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 620px) {
+    .card{
+        height: 40rem;
+        width: 25rem;
+        flex-direction: column;
+    }
+    .img{
+        width: 25rem;
+        height: 16.5rem;
+        border-radius: 15px 15px 0 0;
+    }
+    .info{
+        border-radius: 0 0 15px 15px;
+        height: 23.5rem;
+        width: 25rem;
+        padding: 3rem 2rem 0rem 2rem;
+    }
+    .info p{
+        font-size: 0.96rem;
+        padding-right: 2rem;
+    }
+    .profil{
+        margin-top: 1.8rem;
+    }
+    .share{
+        height: 6rem;
+        width: 25rem;
+        bottom: 1rem;
+        right: 20rem;
+        opacity: 0;
+        border-radius: 0 0 15px 15px;
+    }
+    .share h2{
+        font-size: 1.2rem;
+        margin-left: 3rem;
+    }
+    .social{
+        width: 10rem;
+        background-position: 1.5rem, 4.5rem, 7.5rem;
+        background-size: 1.5rem;
+    }
+    .share::before{
+        border-left: 1rem solid transparent;
+    }
+    .btn_share_res{
+        overflow: hidden;
+        background-color: #6e829b;
+        background-image: url(/images/icon-share-active.svg);
+        background-size: 1rem;
+        background-repeat: no-repeat;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50px;
+        background-position: center;
+        margin-left: 2rem;
+    }
+}
